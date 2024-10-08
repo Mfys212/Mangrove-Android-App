@@ -1,3 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Tema aplikasi default menggunakan Light Mode -->
+    <style name="Theme.App.Light" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here -->
+
+        <!-- Other theme customizations -->
+    </style>
 </resources>

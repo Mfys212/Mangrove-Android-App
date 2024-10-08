@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">CottonDoctor</string>
+    <!-- Desc Content -->
+    <string name="contentLogos">This Content Logos</string>
+    <string name="imagesPrev">This Images Preview</string>
+    <!--  String Resulted-->
+    <string name="app_name">KnowMangrovApp</string>
+    <string name="Header">Images Header</string>
+    <string name="previewImages">Images Preview</string>
+    <string name="resultName">Nama Mangrove</string>
+    <string name="scoreRate">Score Rate: </string>
+    <string name="choosen">Pilih File</string>
+    <string name="resButton">Lihat Hasil</string>
+    <string name="outApp">Keluar Aplikasi</string>
+    <string name="loading">Loading...</string>
+    <string name="mangrove_not_detected">Mangrove Not Detected</string>
+    <string name="score_rate">Score Rate: %1$.3f</string>
+    <string name="please_select_image">Please select an image</string>
+    <string name="result_notif">Click [Lihat Hasil] For Predictions</string>
 </resources>

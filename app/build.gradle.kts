@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.rajeshportfolio.cottondoctor"
+    namespace = "com.mangroveitera.databits"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.rajeshportfolio.cottondoctor"
+        applicationId = "com.mangroveitera.databits"
         minSdk = 24
         targetSdk = 33
         versionCode = 1
@@ -48,6 +48,9 @@ dependencies {
     implementation("org.tensorflow:tensorflow-lite-support:0.1.0-rc1")
     implementation("org.tensorflow:tensorflow-lite-metadata:0.1.0")
     implementation("org.tensorflow:tensorflow-lite-gpu:2.3.0")
+    implementation("org.tensorflow:tensorflow-lite:2.7.0")
+    implementation("org.tensorflow:tensorflow-lite-support:0.3.1")
+    implementation("androidx.activity:activity-ktx:1.3.1")
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")

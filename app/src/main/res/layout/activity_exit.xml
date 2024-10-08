@@ -12,7 +12,7 @@
         android:id="@+id/imageViewIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/KnowMangrove_logos" />
+        android:src="@drawable/knowmangrove_logos" />
 
     <TextView
         android:id="@+id/tvQuestion"

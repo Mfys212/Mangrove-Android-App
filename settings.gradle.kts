@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CottonDoctor"
+rootProject.name = "DataBits"
 include(":app")
  
