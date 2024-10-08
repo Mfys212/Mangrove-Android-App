@@ -1,4 +1,4 @@
-package com.rajeshportfolio.cottondoctor
+package com.rajeshportfolio.databits
 import android.content.Intent
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
@@ -15,7 +15,7 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this@SplashActivity, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 500)
+        }, 1300)
 
     }
 }

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <!-- Background color for the button -->
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff"/> <!-- Light gray color -->
+            <corners android:radius="40dp"/> <!-- Rounded corners -->
+        </shape>
+    </item>
+    <item>
+        <inset
+            android:insetLeft="16dp"
+            android:insetRight="16dp"
+            android:insetTop="16dp"
+            android:insetBottom="16dp">
+            <bitmap
+                android:src="@drawable/camera_view"
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:width="48dp"
+                android:height="48dp"/>
+        </inset>
+    </item>
+</layer-list>
+

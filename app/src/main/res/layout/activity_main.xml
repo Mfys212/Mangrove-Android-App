@@ -11,7 +11,7 @@
         android:layout_width="198dp"
         android:layout_height="60dp"
         android:layout_marginBottom="8dp"
-        android:text="Take Photo"
+        android:text="Open Camera"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button5"
@@ -26,7 +26,7 @@
         android:layout_width="198dp"
         android:layout_height="60dp"
         android:layout_marginBottom="140dp"
-        android:text="Choose Photo"
+        android:text="Choose Image"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,7 +38,7 @@
         android:id="@+id/button"
         android:layout_width="198dp"
         android:layout_height="60dp"
-        android:text="Predict"
+        android:text="Identification"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,7 +56,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_background" />
+        app:srcCompat="@drawable/copy" />
 
     <TextView
         android:id="@+id/textView2"

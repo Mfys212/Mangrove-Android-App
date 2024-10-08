@@ -1,4 +1,4 @@
-package com.rajeshportfolio.cottondoctor
+package com.rajeshportfolio.databits
 
 import org.junit.Test
 

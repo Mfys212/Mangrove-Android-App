@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageViewIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/KnowMangrove_logos" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Apakah kamu yakin keluar ?"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="24dp">
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="Ya"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#00cc44"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="Tidak"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#ff3333"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp" />
+    </LinearLayout>
+</LinearLayout>
